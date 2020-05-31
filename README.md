@@ -8,6 +8,8 @@ a new [homeassistant](https://www.home-assistant.io/) custom component.
 - Generates the appropriate file structure for a minimal homeassistant custom component.
 - Generates metadata to allow submission to [HACS](https://hacs.xyz/).
 - Contains everything needed to get started with writing unit tests for your custom component.
+- Contains an optional [pre-commit](https://pre-commit.com/) config that mimics what the homeassistant core uses to help
+  make your code compliant in case you want to eventually add it to the core codebase.
 
 ## Installation
 
