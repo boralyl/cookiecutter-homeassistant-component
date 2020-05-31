@@ -1,0 +1,1 @@
+# cookiecutter-homeassistant-component
