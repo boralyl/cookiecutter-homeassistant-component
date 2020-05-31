@@ -1,0 +1,9 @@
+{
+  "codeowners": ["{{ cookiecutter.owner }}"],
+  "config_flow": {% if cookiecutter.config_flow == "yes" %}true{% else %}false{% endif %},
+  "dependencies": [],
+  "documentation": "{{ cookiecutter.docs_url }}",
+  "domain": "{{ cookiecutter.domain }}",
+  "name": "{{ cookiecutter.name }}",
+  "requirements": []
+}

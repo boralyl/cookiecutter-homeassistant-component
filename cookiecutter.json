@@ -1,0 +1,7 @@
+{
+  "domain": "my_component",
+  "name": "My Component",
+  "docs_url": "https://github.com/user/my_component/",
+  "owner": "@user",
+  "config_flow": ["yes", "no"]
+}
