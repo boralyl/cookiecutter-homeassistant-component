@@ -1,0 +1,5 @@
+{
+  "name": "{{ cookiecutter.name }}",
+  "render_readme": true,
+  "iot_class": "{{ cookiecutter.iot_class }}"
+}

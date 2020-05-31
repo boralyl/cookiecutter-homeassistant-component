@@ -3,5 +3,12 @@
   "name": "My Component",
   "docs_url": "https://github.com/user/my_component/",
   "owner": "@user",
-  "config_flow": ["yes", "no"]
+  "config_flow": ["yes", "no"],
+  "iot_class": [
+    "Assumed State",
+    "Cloud Polling",
+    "Cloud Push",
+    "Local Polling",
+    "Local Push"
+  ]
 }
