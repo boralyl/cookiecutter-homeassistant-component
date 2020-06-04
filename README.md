@@ -38,6 +38,22 @@ You will be asked to provide the following values to configure your component:
 | config_flow | yes                                   | Signifies if your component will support configuring via the UI via [config flow](https://developers.home-assistant.io/docs/config_entries_config_flow_handler).                             |
 | iot_class   | Assumed State                         | The Internet of Things classification for your component. Read more in the [Home Assistant documentation](https://www.home-assistant.io/blog/2016/02/12/classifying-the-internet-of-things). |
 
+## Pre-Commit
+
+After your project is created a `.pre-commit-config.yaml` file is created in the root of your project.  
+This is completely optional, but will help you to conform you code to the homeassistant standards.  The
+configuration matches that used by homeassistant/core.  
+
+To start using it first install [pre-commit](https://pre-commit.com/), then initialize it.
+
+```bash
+$ pip install pre-commit
+$ pre-commit install
+pre-commit installed at .git/hooks/pre-commit
+```
+
+This will cause pre-commit checks to be run prior to every commit.  Any failed checks will prevent you from pushing your code.
+
 ## Testing
 
 After generating your project you can install the test requirements using pip:
