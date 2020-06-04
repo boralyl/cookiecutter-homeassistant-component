@@ -54,6 +54,18 @@ pre-commit installed at .git/hooks/pre-commit
 
 This will cause pre-commit checks to be run prior to every commit.  Any failed checks will prevent you from pushing your code.
 
+```bash
+$ git commit -a
+pyupgrade................................................................Passed
+black....................................................................Passed
+codespell................................................................Passed
+flake8...................................................................Passed
+bandit...................................................................Passed
+isort....................................................................Passed
+Check JSON...........................................(no files to check)Skipped
+mypy.....................................................................Passed
+```
+
 ## Testing
 
 After generating your project you can install the test requirements using pip:
