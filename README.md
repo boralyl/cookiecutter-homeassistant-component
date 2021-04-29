@@ -37,6 +37,7 @@ You will be asked to provide the following values to configure your component:
 | owner       | @user                                 | Your github username prefixed with `@`.                                                                                                                                                      |
 | config_flow | yes                                   | Signifies if your component will support configuring via the UI via [config flow](https://developers.home-assistant.io/docs/config_entries_config_flow_handler).                             |
 | iot_class   | assumed_state                         | The Internet of Things classification for your component. Read more in the [Home Assistant documentation](https://developers.home-assistant.io/docs/creating_integration_manifest/#iot-class). |
+| version     | 1.0.0                                 | The version number for your custom component. Read more in the [Home Assistant documentation](https://developers.home-assistant.io/docs/creating_integration_manifest/#version). |
 
 ## Pre-Commit
 
