@@ -36,7 +36,7 @@ You will be asked to provide the following values to configure your component:
 | docs_url    | https://github.com/user/my_component/ | The URL pointing to documentation for your component.                                                                                                                                        |
 | owner       | @user                                 | Your github username prefixed with `@`.                                                                                                                                                      |
 | config_flow | yes                                   | Signifies if your component will support configuring via the UI via [config flow](https://developers.home-assistant.io/docs/config_entries_config_flow_handler).                             |
-| iot_class   | Assumed State                         | The Internet of Things classification for your component. Read more in the [Home Assistant documentation](https://www.home-assistant.io/blog/2016/02/12/classifying-the-internet-of-things). |
+| iot_class   | assumed_state                         | The Internet of Things classification for your component. Read more in the [Home Assistant documentation](https://developers.home-assistant.io/docs/creating_integration_manifest/#iot-class). |
 
 ## Pre-Commit
 
