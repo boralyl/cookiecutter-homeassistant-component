@@ -4,6 +4,8 @@
   "dependencies": [],
   "documentation": "{{ cookiecutter.docs_url }}",
   "domain": "{{ cookiecutter.domain }}",
+  "iot_class": "{{ cookiecutter.iot_class }}",
   "name": "{{ cookiecutter.name }}",
-  "requirements": []
+  "requirements": [],
+  "version": "{{ cookiecutter.version }}"
 }

@@ -5,10 +5,12 @@
   "owner": "@user",
   "config_flow": ["yes", "no"],
   "iot_class": [
-    "Assumed State",
-    "Cloud Polling",
-    "Cloud Push",
-    "Local Polling",
-    "Local Push"
-  ]
+    "assumed_state",
+    "calculated",
+    "cloud_polling",
+    "cloud_push",
+    "local_polling",
+    "local_push"
+  ],
+  "version": "1.0.0"
 }
